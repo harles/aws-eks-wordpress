@@ -22,10 +22,10 @@ $ terraform destroy
 
 ## Background information
 Some sources to dig in in order to get high-level overview how to run HA Wordpress in aws
-https://portworx.com/run-multi-tenant-wordpress-platform-amazon-eks/
-https://medium.com/@karl_31154/6-simple-steps-to-wordpress-high-availability-on-aws-b4a2d66ccdcd
-https://d0.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf
-https://github.com/aws-samples/aws-refarch-wordpress
+https://portworx.com/run-multi-tenant-wordpress-platform-amazon-eks/  
+https://medium.com/@karl_31154/6-simple-steps-to-wordpress-high-availability-on-aws-b4a2d66ccdcd  
+https://d0.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf  
+https://github.com/aws-samples/aws-refarch-wordpress  
 
 ## Provisioning tool
 Chosen tool: https://www.terraform.io/ because:
@@ -64,9 +64,9 @@ https://registry.terraform.io/modules/cloudposse/efs/aws/0.16.0
 https://aws.amazon.com/rds/aurora/ - MySQL
 
 Readings:  
-https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-with-amazon-rds/
-https://api.wordpress.org/secret-key/1.1/salt/
-https://github.com/terraform-aws-modules/terraform-aws-rds/tree/master/examples/complete-mysql
+https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-with-amazon-rds/  
+https://api.wordpress.org/secret-key/1.1/salt/  
+https://github.com/terraform-aws-modules/terraform-aws-rds/tree/master/examples/complete-mysql  
 
 ### Network
 https://aws.amazon.com/vpc/
