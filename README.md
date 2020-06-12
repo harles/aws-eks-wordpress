@@ -8,10 +8,10 @@ Manually components tested.
 Have IAM user with sufficient privileges.  
 Create 'sensitive.auto.tfvars' with following content (set your own credentials):  
 
-access_key = "AWS_ACCESS_KEY"  
-secret_key = "AWS_SECRET_KEY"  
-db_master_username = "DB_MASTER_USERNAME"  
-db_master_password = "DB_MASTER_PASSWORD"  
+access_key         = "<AWS_ACCESS_KEY>"  
+secret_key         = "<AWS_SECRET_KEY>"  
+db_master_username = "<DB_MASTER_USERNAME>"  
+db_master_password = "<DB_MASTER_PASSWORD>"  
 
 ### Run
 ```{r}
@@ -80,6 +80,9 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerD
 https://github.com/hashicorp/learn-terraform-provision-eks-cluster/issues/10
 - [ ] how to create database user for application? (non-root)
 - [ ] how to mount efs to eks nodes? (self-made ami?)
+- [ ] review security
+- [ ] WP deployment with some tool
 - [ ] consistent outputs
 - [ ] README.md tuning
 - [ ] define "least privilege" permissions for provisioning
+- [ ] make labelling consistent (i.e. name, provisioner)
